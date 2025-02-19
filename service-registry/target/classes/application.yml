@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: 01_Service_Registry
+
+server:
+  port: 8761
+
+# Act only as a eureka server and not as a client
+eureka:
+  client:
+    register-with-eureka: false

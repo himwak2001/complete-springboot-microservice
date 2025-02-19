@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: 07_Cloud_Config_Server
+
+  # To load properties from GitHub Repository
+  cloud:
+    config:
+      server:
+        git:
+          uri: "<git-url>"
+
+server:
+  port:
+    9093
